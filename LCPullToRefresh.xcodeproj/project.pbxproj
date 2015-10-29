@@ -14,6 +14,9 @@
 		B384F6FF1BE2594A0063E544 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B384F6FD1BE2594A0063E544 /* LaunchScreen.storyboard */; };
 		B384F70A1BE2594A0063E544 /* LCPullToRefreshTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B384F7091BE2594A0063E544 /* LCPullToRefreshTests.swift */; };
 		B384F7151BE2594A0063E544 /* LCPullToRefreshUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B384F7141BE2594A0063E544 /* LCPullToRefreshUITests.swift */; };
+		B384F7241BE25A220063E544 /* LCPullToRefreshLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B384F7231BE25A220063E544 /* LCPullToRefreshLoadingView.swift */; };
+		B384F7261BE25C100063E544 /* LCPullToRefreshLoadingViewCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B384F7251BE25C100063E544 /* LCPullToRefreshLoadingViewCircle.swift */; };
+		B384F7281BE261AA0063E544 /* LCPullToRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B384F7271BE261AA0063E544 /* LCPullToRefreshView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		B384F7101BE2594A0063E544 /* LCPullToRefreshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LCPullToRefreshUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B384F7141BE2594A0063E544 /* LCPullToRefreshUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCPullToRefreshUITests.swift; sourceTree = "<group>"; };
 		B384F7161BE2594A0063E544 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B384F7231BE25A220063E544 /* LCPullToRefreshLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCPullToRefreshLoadingView.swift; sourceTree = "<group>"; };
+		B384F7251BE25C100063E544 /* LCPullToRefreshLoadingViewCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCPullToRefreshLoadingViewCircle.swift; sourceTree = "<group>"; };
+		B384F7271BE261AA0063E544 /* LCPullToRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCPullToRefreshView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,7 @@
 		B384F6F31BE2594A0063E544 /* LCPullToRefresh */ = {
 			isa = PBXGroup;
 			children = (
+				B384F7221BE2596F0063E544 /* Class */,
 				B384F6F41BE2594A0063E544 /* AppDelegate.swift */,
 				B384F6F61BE2594A0063E544 /* ViewController.swift */,
 				B384F6F81BE2594A0063E544 /* Main.storyboard */,
@@ -123,6 +130,16 @@
 				B384F7161BE2594A0063E544 /* Info.plist */,
 			);
 			path = LCPullToRefreshUITests;
+			sourceTree = "<group>";
+		};
+		B384F7221BE2596F0063E544 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				B384F7231BE25A220063E544 /* LCPullToRefreshLoadingView.swift */,
+				B384F7251BE25C100063E544 /* LCPullToRefreshLoadingViewCircle.swift */,
+				B384F7271BE261AA0063E544 /* LCPullToRefreshView.swift */,
+			);
+			path = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +274,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B384F6F71BE2594A0063E544 /* ViewController.swift in Sources */,
+				B384F7241BE25A220063E544 /* LCPullToRefreshLoadingView.swift in Sources */,
+				B384F7261BE25C100063E544 /* LCPullToRefreshLoadingViewCircle.swift in Sources */,
+				B384F7281BE261AA0063E544 /* LCPullToRefreshView.swift in Sources */,
 				B384F6F51BE2594A0063E544 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
